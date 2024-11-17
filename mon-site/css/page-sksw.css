@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alex+Brush&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Jacques+Francois&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.navigation-header.navigation-header {
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.navigation-header.navigation-header img {
+    width: 8%;
+}
+
+section.header {
+    background: url('../images/sksw2.jpg');
+    background-size: cover;
+    height: 97vh;
+}
+
+
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 43%;
+    margin-left: 5%;
+    font-size: 140%;
+    color: white;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.texte-partie {
+text-align: center;
+padding: 3%;
+font-size: 190%;
+font-family: 'Jacques Francois';
+color: beige;
+}
+
+.hisoitre-oot{
+    background: url('../images/fond4.png');
+}
+
+
+
+.image-histoire {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2%; 
+}
+
+
+.image-histoire img {
+    height: auto;
+    border-radius: 7%; 
+}
+
+
+.image-histoire10{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 2%; 
+    padding: 5%;
+}
+
+
+.image-histoire10 img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8%; 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 1%;
+    color: white;
+
+}
+
+footer a.cg {
+    text-decoration: none;
+    color: white;
+}
+
+
+.fin {
+    background-color: black;
+    padding: 0.2%;
+}

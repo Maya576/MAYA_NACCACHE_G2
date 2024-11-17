@@ -1,0 +1,302 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alex+Brush&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Jacques+Francois&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+
+
+* {
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.navigation-header.navigation-header {
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.navigation-header.navigation-header img {
+    width: 8%;
+}
+
+section.header {
+    background: url('../images/ecrantitre.png');
+    background-size: cover;
+    height: 80vh;
+}
+
+.titre {
+    color: beige;
+    font-size:  218%;
+    font-family: 'Jacques Francois';
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+}
+
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 43%;
+    margin-left: 5%;
+    font-size: 140%;
+    color: white;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.sous-titre {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    color: beige;
+    padding: 4%;
+    font-family: 'Jacques Francois';
+}
+
+
+
+.jeux {
+    background: url('../images/fond1.png');
+}
+
+.choix-jeu {
+    gap: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.vignette-jeu {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+
+.vignette-jeu:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+
+.vignette-perso {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+
+.vignette-perso:hover {
+    transform: scale(1.4);
+    z-index: 10;
+}
+
+
+
+.detail-perso{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 3%;
+    text-align: center;
+}
+
+
+.nom-perso{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    color: beige;
+}
+
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    margin: 12%;
+}
+
+.jeu1 {
+    background-image: url(../images/oot.jpg);
+}
+
+.jeu2 {
+    background-image: url(../images/sksw.jpg);
+}
+
+.jeu3 {
+    background-image: url(../images/mm.jpg);
+}
+
+.jeu4 {
+    background-image: url(../images/tp.jpg);
+}
+
+
+.jeu5 {
+    background-image: url(../images/ww.jpg);
+}
+
+
+.jeu6 {
+    background-image: url(../images/la.jpg);
+}
+
+
+.jeu7{
+    background-image: url(../images/botw.jpg);
+
+}
+
+.jeu8 {
+    background-image: url(../images/totk.jpg);
+}
+
+.jeu9 {
+    background-image: url(../images/st.jpg);
+}
+
+.jeu10 {
+    background-image: url(../images/ph.jpg);
+}
+
+.jeu11 {
+    background-image: url(../images/ooa.jpg);
+}
+
+.jeu12 {
+    background-image: url(../images/tloz.jpg);
+}
+
+.details-jeu {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 5%;
+    text-align: center;
+
+}
+
+.nom-jeu {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    color: beige;
+}
+
+.année-jeu {
+    font-size: 0.9em;
+    color: #dd820b; 
+    margin: 1% 0 0;
+}
+
+
+.personnages-principaux {
+    background: url('../images/fond2.png');
+    height: 1095px;
+}
+
+.choix-perso {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    width: 1000px;
+    margin: 0 auto;
+    gap: 4%;
+}
+
+
+.image-perso1 {
+    background-image: url(../images/link.png);
+    grid-column: 1/3;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-perso2 {
+    background-image: url(../images/zelda.png);
+    grid-column: 3/5;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-perso3 {
+    background-image: url(../images/ganon.png);
+    grid-column: 2/4;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 1%;
+    color: white;
+
+}
+
+footer a.cg {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    overflow: hidden;
+    max-width: 80%;
+    background: #000;
+    margin: 2% auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.fin {
+    background-color: black;
+    padding: 0.2%;
+}
+
+.dernier-jeu{
+    background: url(../images/fond3.png);
+}
